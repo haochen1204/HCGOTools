@@ -1,4 +1,4 @@
-package HCGOTools
+package fofa
 
 import (
 	"encoding/base64"

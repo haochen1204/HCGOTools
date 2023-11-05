@@ -1,4 +1,4 @@
-package HCGOTools
+package Group
 
 import (
 	"sync"
