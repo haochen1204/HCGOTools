@@ -64,7 +64,7 @@ func (s *FoFa_Client) HostSearch(q *FoFa_InfoSearch) (*FoFa_Host, error) {
 		api_url = api_url + fmt.Sprintf("&page=%d", q.Page)
 	}
 	if q.Size != 0 {
-		api_url = api_url + fmt.Sprintf("&size=%d", q.Page)
+		api_url = api_url + fmt.Sprintf("&size=%d", q.Size)
 	}
 	if q.Full != false {
 		api_url = api_url + "&full=ture"
